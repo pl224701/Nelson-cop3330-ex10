@@ -23,11 +23,11 @@ public class App
         String str5 = sc.nextLine();
         System.out.print("Enter the quantity of item 3: ");
         String str6 = sc.nextLine();
-        double n1 = Integer.parseInt(str1);
+        double n1 = Double.parseDouble(str1);
         int n2 = Integer.parseInt(str2);
-        double n3 = Integer.parseInt(str3);
+        double n3 = Double.parseDouble(str3);
         int n4 = Integer.parseInt(str4);
-        double n5 = Integer.parseInt(str5);
+        double n5 = Double.parseDouble(str5);
         int n6 = Integer.parseInt(str6);
         double tax_rate = 0.055;
         double subtotal = n1*n2+n3*n4+n5*n6;
